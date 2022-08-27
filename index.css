@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(115, 153, 0);
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+}
+.cityName,
+.submitButton{
+    border: none;
+    margin: 0 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cityName{
+    background-color: rgb(204, 255, 51);
+    width: 400px;
+}
+.cityName:hover {
+    background-color: black;
+    color: white;
+    
+}
+.submitButton{
+    font-weight: bold;
+    background-color: rgb(204, 255, 51);}
+.submitButton:hover {
+    background-color: black;
+    color: white;
+}
+.submitButton:active {
+    transform: translateY(4px);
+}
+
+
