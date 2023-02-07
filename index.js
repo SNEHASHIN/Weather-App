@@ -14,6 +14,6 @@ btn1.addEventListener('click',function(name){
         let container = document.querySelector(".container")
         container.innerHTML = result
         console.log(data)
-    }).catch(err=>alert("invalid city name"))
-
+    })
+     .catch(err=>alert("invalid city name"))
 })
